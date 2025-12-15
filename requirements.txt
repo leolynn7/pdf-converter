@@ -1,8 +1,0 @@
-# PDF Converter - Requirements
-# This application requires Python 3.6+ and LibreOffice
-
-# Python dependencies (minimal - included in standard library)
-# tkinter, subprocess, threading, os, pathlib, webbrowser
-
-# Note: LibreOffice must be installed separately
-# See INSTALLATION.md for installation instructions
