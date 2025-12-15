@@ -22,7 +22,7 @@ The application provides a user-friendly graphical interface built with Python's
 ### **For End Users:**
 - **Simplicity**: No technical knowledge required - just click and convert
 - **Speed**: Convert multiple files in one go, no manual processing
-- **Quality**: Professional-grade PDF output identical to Office's "Save as PDF"
+- **Quality**: Professional-grade PDF output identical to Office's "Save as PDF."
 - **Free**: No subscriptions, no watermarks, no limits
 
 ### **For Developers:**
@@ -92,3 +92,22 @@ The application features a thoughtfully designed interface:
 
 ## 🖼️ Screenshot
 <img width="602" height="591" alt="image" src="https://github.com/user-attachments/assets/5511e485-d32a-4d1d-a7b9-bb7b4f8a85cf" />
+
+## System Requirements
+
+### Minimum Requirements
+| Component | Requirement |
+|-----------|-------------|
+| **Operating System** | Linux (Ubuntu 18.04+, Debian 10+, Fedora 32+, Arch), Windows 10+, macOS 10.15+ |
+| **Python** | 3.6 or higher |
+| **LibreOffice** | 6.0 or higher |
+| **RAM** | 2 GB minimum |
+| **Storage** | 100 MB free space |
+| **Display** | 1024x768 resolution minimum |
+
+## Quick Installation
+
+### For Ubuntu/Debian (One Command)
+```bash
+# Run this single command to install everything
+sudo apt update && sudo apt install python3 python3-tk libreoffice -y && wget -O pdf_converter.py https://raw.githubusercontent.com/leolynn7/pdf-converter/main/pdf_converter.py && python3 pdf_converter.py
