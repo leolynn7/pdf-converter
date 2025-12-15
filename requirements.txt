@@ -5,4 +5,4 @@
 # tkinter, subprocess, threading, os, pathlib, webbrowser
 
 # Note: LibreOffice must be installed separately
-# See README.md for installation instructions
+# See INSTALLATION.md for installation instructions
